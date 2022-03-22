@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #f8f8f8;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+  margin-top: 10%;
+  color: rgb(228, 195, 195);
+}
+.wrapper h1 {
+  font-family: "Allura", cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+  justify-content: center;
+  color: rgb(3, 79, 243);
+}
+
+.movies {
+  display: flex;
+  text-align: center;
+  width: auto;
+  color: rgb(12, 16, 238);
+  justify-content: center;
+}
+
+.movies .movies_number {
+  background: rgb(0, 0, 0);
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  position: relative;
+}
+
+.movies .movies_number h3 {
+  color: rgb(85, 38, 255);
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.movies .movies_number p.Genre {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px;
+}
+
+.hero-text {
+  color: rgb(31, 1, 1);
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 350px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+}
+
+.hero-text p {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(8, 1, 1);
+}
+
+nav {
+  background: #222222;
+  padding: 10px 40px 10px 70px;
+  border: 1px solid #000;
+  border-left: none;
+  border-right: none;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li.logo {
+  flex: 1;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+nav ul div.items {
+  padding: 0 25px;
+  display: inline-flex;
+}
+
+nav ul div.items a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 12px;
+}
+nav ul div.items a:hover {
+  color: rgb(36, 14, 165);
+}
+
+nav ul .search-icon {
+  height: 40px;
+  width: 240px;
+  display: flex;
+  background: #222222;
+  border-radius: 5px;
+}
+
+nav ul .seach-icon input {
+  height: 100%;
+  width: 200px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  color: #000;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+
+nav ul .search-icon .icon {
+  height: 100%;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: rgb(168, 168, 168);
+  border-radius: 0 5px 5px 0;
+}
+
+nav ul .search-icon .icon:hover {
+  background: rgb(6, 247, 255);
+}
+
+nav ul .search-icon .icon span {
+  color: #222222;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1052px) {
+  nav {
+    padding: 10px 40px 10px 0px;
+  }
+  nav ul li.logo {
+    display: none;
+  }
+  nav ul div.items {
+    flex: 4;
+  }
+}
+
+.movies .movies_number .movies_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+}
+
+.movies .movies_number .movies_img img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
